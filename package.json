@@ -1,0 +1,28 @@
+{
+  "name": "leafhopper",
+  "version": "0.0.3",
+  "description": "This may be a repeat of ploy? Distribute and run multiple node programs with git",
+  "main": "index.js",
+  "bin": {
+    "leaf": "bin/leaf.js",
+    "hopper": "bin/hopper.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "git, continuous integration"
+  ],
+  "author": "WhyThePlatypus",
+  "license": "BSD",
+  "dependencies": {
+    "cicada": "~1.0.2",
+    "portfinder": "~0.2.1",
+    "underscore": "~1.4.4",
+    "optimist": "~0.3.5"
+  },
+  "optionalDependencies": {
+    "winston-remote": "git+http://zaphod.local:8860/winston-remote/.git"
+  }
+}
