@@ -1,6 +1,6 @@
 {
   "name": "leafhopper",
-  "version": "0.0.3",
+  "version": "0.0.0",
   "description": "This may be a repeat of ploy? Distribute and run multiple node programs with git",
   "main": "index.js",
   "bin": {
